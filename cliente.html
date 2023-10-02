@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario de Cliente</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Formulario de Cliente</h1>
+        <form action="server.php" method="POST">
+            <label for="documento">Documento:</label>
+            <input type="text" name="documento" id="documento" required><br><br>
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" required><br><br>
+
+            <label for="correo">Correo Electronico:</label>
+            <input type="email" name="correo" id="correo" required><br><br>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+</body>
+</html>
+
+
