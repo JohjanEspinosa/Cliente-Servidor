@@ -45,12 +45,3 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #555;
 }
-/* Estilo para el mensaje de confirmación */
-.confirmation-message {
-    background-color: #4CAF50;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-    margin-top: 10px;
-    border-radius: 3px;
-}
